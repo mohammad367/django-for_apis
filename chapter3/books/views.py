@@ -3,7 +3,6 @@ from django.shortcuts import render
 from django.views.generic import ListView
 from .models import Book
 
-class BookListiew(ListView):
+class BookListview(ListView):
     model=Book
     template_name='book_list.html'
-    
